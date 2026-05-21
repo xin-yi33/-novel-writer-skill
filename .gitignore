@@ -1,0 +1,10 @@
+# 排除所有小说数据内容
+# （保留的模板文件通过 ! 规则单独包含）
+
+novel-writer/novel/current_state.md
+novel-writer/novel/chapters/
+novel-writer/novel/characters/
+novel-writer/novel/memory/
+novel-writer/novel/draft/
+novel-writer/novel/outlines/*.md
+!novel-writer/novel/outlines/示例细纲模板.md
